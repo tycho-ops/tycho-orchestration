@@ -1,0 +1,28 @@
+{
+  "name": "@tycho/orchestration",
+  "version": "0.1.0",
+  "description": "Kubernetes deployments of catalogue recipes",
+  "type": "module",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "bin/",
+    "README.md",
+    "README.fr.md"
+  ],
+  "author": "Quatrain Technologies",
+  "copyright": "Quatrain Technologies",
+  "license": "AGPL-3.0-only",
+  "repository": "https://git.qtrn.io/tycho/tycho-orchestration",
+  "publishConfig": {
+    "registry": "https://qtrn.io/"
+  },
+  "tycho": {
+    "module": "orchestration",
+    "commands": [
+      "orchestration"
+    ],
+    "core": "^1.0.0",
+    "trust": "official"
+  }
+}
